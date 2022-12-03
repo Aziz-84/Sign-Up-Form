@@ -9,13 +9,17 @@ body{
 background-color: black;
 margin: 0px 10rem;
 }
+header{
+   margin: 1rem;
+}
 h1{
-    color: white;
+   font-size: 34px;
 }
 
 .container{
-    display: grid;
+display: grid;
 grid-template-columns: 1fr 2fr;
+background-color: rgb(255, 255, 255);
 }
 .background-image{
     position: relative;
@@ -25,13 +29,54 @@ grid-template-columns: 1fr 2fr;
 }
 .logo{
     position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 192px;
-    left: 214px;
+    width: 300px;
+    height: 300px;
+    top: 122px;
+    left: 160px;
     filter: brightness(2);
-    opacity: 0.5;
+    opacity: 80%;
 }
 .form-container{
-    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    margin: 2.5rem;
+    padding: 4rem;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    box-shadow: 1px 0px 24px -14px black
+}
+label{
+    font-size: 24px;
+}
+input{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+.conatiner-article{
+    background-color:white
+}
+button{
+ background-color:  rgb(121, 127, 150);
+ color: white;
+ padding: 1rem;
+ font-size: 24px;
+ font-weight: 500;
+ border-radius: 20px;
+ margin-left: 4rem;
+ border: none;
+}
+.create-account{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+}
+.create-account>P{
+   grid-column-end: 1;
+   align-self: center;
+   justify-self: end;
+   font-size: 18px;
+   font-weight: bold;
 }
