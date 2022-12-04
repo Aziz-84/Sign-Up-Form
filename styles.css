@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+ 
 }
 
 body{
@@ -53,6 +54,7 @@ input{
   width: 200px;
   height: 30px;
   border-radius: 10px;
+ 
 }
 .conatiner-article{
     background-color:white
@@ -79,4 +81,19 @@ button{
    justify-self: end;
    font-size: 18px;
    font-weight: bold;
+   
 }
+input[type=text]:focus {
+    border: 3px solid rgb(56, 35, 192);
+   
+  }
+  input[type=email]:focus {
+    border: 3px solid rgb(56, 35, 192);
+  }
+  input[type=number]:focus {
+    border: 3px solid rgb(56, 35, 192);
+  }
+  input[type=password]:focus {
+    border: 3px solid rgb(255, 0, 0);
+  }
+
